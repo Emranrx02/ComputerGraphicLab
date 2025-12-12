@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+tea
+village_market
+/build/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
