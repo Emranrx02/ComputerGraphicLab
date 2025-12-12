@@ -77,8 +77,7 @@ void drawOverlay() {
 // Draw shop name above the stall in world coordinates
 void drawShopName() {
     const char *name = "DHAKAI CHA DOKAN";
-    // Place text above the stall roof (matches stall transform in drawStall)
-    // choose color depending on day/night
+    
     if (!isNight) setColor(0.0f, 0.0f, 0.0f);
     else setColor(1.0f, 0.95f, 0.6f);
     // Raster position in world coords - adjust height/z to fit roof
