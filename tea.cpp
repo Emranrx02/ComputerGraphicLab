@@ -161,12 +161,10 @@ void drawLoadingScreen() {
     const char* students[][3] = {
         {"1", "Md Zahid Hasan Patwary", "221-15-4996"},
         {"2", "Md Amran Haque", "221-15-5662"},
-        {"3", "Md Sanaullah", "221-15-4995"},
-        {"4", "Md Shakibul Islam", "221-15-5551"},
-        {"5", "Md Tahsinul Hoque", "221-15-4661"}
+        {"3", "Md Sanaullah", "221-15-4995"}
     };
 
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < 3; i++) {
         float y = tableTop - ((i + 1) * rowHeight) - 10;
         drawBitmapText(students[i][0], col1, y, GLUT_BITMAP_HELVETICA_18);
         drawBitmapText(students[i][1], col2, y, GLUT_BITMAP_HELVETICA_18);
